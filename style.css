@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+  }
+  
+  .header {
+    height: 1024px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./image\ 1.png");
+  }
+  
+  .header-parent {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .header-left button {
+    box-shadow: 3px 3px 3px white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    background-color: #009ff5b5;
+  }
+  
+  .header-left button span {
+    color: white;
+    font-weight: 700;
+  }
+  
+  .header-left a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px #000000e0;
+    font-weight: 700;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px #000000e0;
+  }
+  
+  /* Hero styles  */
+  
+  .hero-btn {
+    margin-top: 200px;
+    text-align: center;
+  }
+  
+  .hero-btn button {
+    background-color: #ffc611;
+    border: 10px solid #5A5555;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: black;
+    text-shadow: 3px 3px 3px rgb(15, 56, 133);
+  }
+  
+  .hero-parent {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero-card {
+    text-align: center;
+    background-color: #1f1f1f;
+    width: 361px;
+  }
+  
+  .hero-card img {
+    width: 100%;
+  }
+  
+  .hero-card h2 {
+    color: black;
+    padding: 20px 0;
+    text-shadow: 3px 3px 3px yellow;
+  }
+
+ .main{
+   background-color: black;
+    height: 1042px;
+  }
+  .hero-h1{
+    padding-top: 50px;
+  text-align: center;
+  font-size: 64px;
+  color:#5A5555;
+  text-shadow: 5px 5px 5px white;
+  }
+  .parentt{
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    display: flex;
+    
+  
+  }
+  .rightt p{
+   font-size: 20px; 
+   color: #FFFF;
+  }
+  .rightt button{
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #FFC611;
+    color: white;
+    box-shadow: 3px 3px 3px white;
+    border: none;
+    padding: 20px 40px;
+  cursor: pointer;
+  text-shadow: 3px 3px 3px black;
+  }
+
+  .rightt button:hover{
+    background-color: gray;
+    text-shadow: 3px 3px 3px blue;
+    box-shadow: 3px 3px 3px blue;
+    
+  }
+  .left img{
+    width: 571px;
+    height: 305px;
+  }
+ /* jjjjj */
+
+ .parenttt{
+    justify-content: center;
+  display: flex;  
+ margin-top: 100px;
+ gap: 100px;
+ }
+ .lefttt p{
+    font-size: 20px; 
+    color: #FFFF;
+ }
+ .lefttt button{
+    margin-top: 50px;
+    font-size: 20px;
+    background-color: #FFC611;
+    color: white;
+    box-shadow: 3px 3px 3px white;
+    border: none;
+    padding: 20px 40px;
+  cursor: pointer;
+  text-shadow: 3px 3px 3px black;
+ }
+ .lefttt button:hover{
+    background-color: gray;
+    text-shadow: 3px 3px 3px blue;
+    box-shadow: 3px 3px 3px blue;
+ }
+ .righttt img{
+    width: 571px;
+    height: 305px;
+ }
+
+ /* footer */
+ footer{
+    background-color: #FFC611;
+ }
+ .footer-parent{
+    align-items: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer-left{
+ align-items: center;
+ }
+ .footer-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+ }
+
